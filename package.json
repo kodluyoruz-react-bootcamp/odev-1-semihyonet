@@ -1,0 +1,26 @@
+{
+  "name": "hw1",
+  "version": "1.0.0",
+  "description": "This is Kodluyoruz Bootcamp Homework #1",
+  "main": "./src/App.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "sucrase": "^3.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node dist/App.js",
+		"dev": "nodemon src/App.js",
+    "build": "sucrase ./src -d ./dist --transforms imports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodluyoruz-react-bootcamp/odev-1-semihyonet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodluyoruz-react-bootcamp/odev-1-semihyonet/issues"
+  },
+  "homepage": "https://github.com/kodluyoruz-react-bootcamp/odev-1-semihyonet#readme"
+}
