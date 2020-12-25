@@ -1,6 +1,3 @@
-This is Kodluyoruz Bootcamp Homework #1 
-
-
 This repository is meant for Kodluyoruz as Homework 1
 
 The purpose of the code is using GET method for grabing data and posts about the specified user and combining the data gathered by out API. 
