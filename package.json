@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "This is Kodluyoruz Bootcamp Homework #1",
   "main": "./src/App.js",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  },
   "dependencies": {
     "axios": "^0.21.0",
     "sucrase": "^3.16.0"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "node dist/App.js",
-		"dev": "nodemon src/App.js",
+    "dev": "nodemon src/App.js",
     "build": "sucrase ./src -d ./dist --transforms imports"
   },
   "repository": {
